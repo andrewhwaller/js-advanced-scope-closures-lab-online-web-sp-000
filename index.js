@@ -19,3 +19,10 @@ function produceTipCalculator(rate) {
     return fare * rate;
   }
 }
+
+function createDriver() {
+  let driverId = 0
+  return class Driver {
+    this.id = driverId++;
+  }
+}
