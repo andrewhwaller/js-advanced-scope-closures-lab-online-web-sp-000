@@ -13,3 +13,9 @@ function produceDrivingRange(blockRange) {
     }
   }
 }
+
+function produceTipCalculator(rate) {
+  return function ( fare ) {
+    return fare * rate;
+  }
+}
